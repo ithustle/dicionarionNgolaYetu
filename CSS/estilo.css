@@ -1,0 +1,265 @@
+
+#content {
+    position: relative;
+    min-height: 100%;
+    
+}
+
+* html, #content {
+    height: 100%;
+}
+
+html, body { 
+    
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    display: block;
+    font-family: Tahoma, Verdana;
+    height: 100%;
+    font-size: 10.5pt;
+    position: relative;
+}
+
+#botaoFB{
+    border: 1px solid;
+}
+
+img{
+    border: none;
+}
+
+#barraCima{
+    height: 30px;
+
+    background: rgb(207,231,250); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(207,231,250,1) 0%, rgba(99,147,193,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(207,231,250,1)), color-stop(100%,rgba(99,147,193,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(207,231,250,1) 0%,rgba(99,147,193,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(207,231,250,1) 0%,rgba(99,147,193,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(207,231,250,1) 0%,rgba(99,147,193,1) 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgba(207,231,250,1) 0%,rgba(99,147,193,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cfe7fa', endColorstr='#6393c1',GradientType=0 ); /* IE6-9 */
+}
+
+#miniCorpo{
+    height: 370px;
+    
+    background-image: linear-gradient(bottom, rgb(182,204,227) 12%, rgb(204,219,255) 0%, rgb(255,255,255) 78%);
+    background-image: -o-linear-gradient(bottom, rgb(182,204,227) 12%, rgb(204,219,255) 0%, rgb(255,255,255) 78%);
+    background-image: -moz-linear-gradient(bottom, rgb(182,204,227) 12%, rgb(204,219,255) 0%, rgb(255,255,255) 78%);
+    background-image: -webkit-linear-gradient(bottom, rgb(182,204,227) 12%, rgb(204,219,255) 0%, rgb(255,255,255) 78%);
+    background-image: -ms-linear-gradient(bottom, rgb(182,204,227) 12%, rgb(204,219,255) 0%, rgb(255,255,255) 78%);
+
+    background-image: -webkit-gradient(
+	linear,
+	left bottom,
+	left top,
+	color-stop(0.12, rgb(182,204,227)),
+	color-stop(0, rgb(204,219,255)),
+	color-stop(0.78, rgb(255,255,255)));
+}
+
+#logo{
+    width:435px;
+    height:130px;
+    font-size: 50px;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 50%;
+    margin-top: 50px;
+    margin-left: -225px;
+}
+
+#divPesquisar{
+    position: absolute;
+    left: 50%;
+    margin-left: -360px;
+    margin-top: 200px;
+    width: 770px;
+}
+
+#spPag{
+    padding-right: 6px;
+    position: absolute;
+    left: 50%;
+    margin-left: -150px;
+}
+
+#divPag{
+    position: absolute;
+    padding-left: 150px;
+    text-align: center;
+    text-decoration: underline;
+    left: 50%;
+    margin-left: -150px
+    
+}
+
+#pesquisa{
+    border: 1px solid #64799e;
+    font-size: 25px;
+    color: darkgray;
+    
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+    border-radius: 7px;
+}
+
+#botao{
+    float: right;
+    margin-right: 50px;
+}
+    
+#divPub{
+    background: rgb(238,238,238); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(238,238,238,1) 0%, rgba(204,204,204,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(238,238,238,1)), color-stop(100%,rgba(204,204,204,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(238,238,238,1) 0%,rgba(204,204,204,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(238,238,238,1) 0%,rgba(204,204,204,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(238,238,238,1) 0%,rgba(204,204,204,1) 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgba(238,238,238,1) 0%,rgba(204,204,204,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#cccccc',GradientType=0 ); /* IE6-9 */
+
+}
+    
+.limitarbox {
+    width: 213px !important;
+    height: 107px !important;
+    overflow: hidden !important;
+    position: relative;
+}
+.fb-like-box {
+    background-color: #292526;
+    margin-top: -98px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: -9px;
+    position: absolute;
+}
+.fb-like {
+    margin-top: 10px;
+    text-align: center;
+    width: 413px;
+    position: absolute;
+}
+
+#divLike{
+    float: right;
+    position: relative;
+    clear: both;
+    right: 3%;
+}
+
+#rodape{
+    position: absolute;
+    margin-top: -25px;
+    height: 25px;
+    clear: both;
+    text-align: left;
+    font-family: monospace;
+    font-size: 13px;
+    line-height: 25px;
+    border-top: 1px appworkspace solid;
+    bottom: 0;
+    width: 100%;
+}
+
+#divPesquisar input.botao-busca {
+    cursor:pointer;
+}
+
+#logoFacebook{
+    padding-bottom: 5px;
+    padding-right: 5px;
+}
+
+#logoGPlus{
+    padding-bottom: 5px;
+    padding-right: 5px;
+}
+
+#logoRSocial{
+    margin: 10px 5px 5px 15px;
+    position: absolute;
+}
+
+#dialectos{
+    clear: both;
+    position: absolute;
+    left: 50%;
+    margin-left: -350px;
+    margin-top: 240px;
+    font-size: 15px;
+}
+
+a{
+    text-decoration: none;
+    
+}
+
+label{
+    /* font-family: Arial, Verdana; */
+    text-shadow: 1px 1px 1px #ccc;
+    font-weight: bold;
+    margin-right:10px;
+    text-align: center;
+    width: 570px;
+    line-height: 25px;
+    font-size: 12px;
+    position: absolute;
+    left: 50%;
+    margin-top: 340px;
+    margin-left: -330px;
+}
+
+a.menuDialecto:active, a.menuDialecto:focus {
+    
+    color: darkblue;
+    font-size: 80pt;
+}
+
+a.menuDialecto:hover{
+    color: #64799e;
+}
+
+.menuDialecto{
+    color: #999999;
+    font-weight: bold;
+}
+
+#celio{
+    float: right;
+    margin-right: 10px;
+}
+
+p.contexto {
+	position: relative;
+	font: 12px arial, verdana, helvetica, sans-serif;
+	padding: 0;
+	color: #039;
+	text-decoration: none;
+	cursor: help;
+	z-index: 24;
+}
+p.contexto:hover {
+	background: transparent;
+	z-index: 25;
+}
+p.contexto span {
+	display: none;
+}
+p.contexto:hover span {
+    display: block;
+    position: absolute;
+    width: 270px;
+    top: 0em;
+    text-align: justify;
+    margin-left: -300px;
+    font: 12px Verdana, arial, helvetica, sans-serif;
+    padding: 5px 10px;
+    border: 1px solid #999;
+    background: #E8EBF2;
+    color: #000;
+}

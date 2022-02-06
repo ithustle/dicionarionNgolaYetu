@@ -1,0 +1,256 @@
+/* 
+    Document   : estilo2
+    Created on : 22/Mai/2013, 10:39:03
+    Author     : Célio Garcia
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+
+#content {
+    position: relative;
+    min-height: 100%;
+    
+}
+
+* html, #content {
+    height: 100%;
+}
+
+html, body { 
+    
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    display: block;
+    font-family: Tahoma;
+    height: 100%;
+    font-size: 12pt;
+    position: relative;
+}
+
+#botaoFB{
+    border: 1px solid;
+}
+
+#barraCima{
+    height: 30px;
+
+    background: rgb(207,231,250); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(207,231,250,1) 0%, rgba(99,147,193,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(207,231,250,1)), color-stop(100%,rgba(99,147,193,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(207,231,250,1) 0%,rgba(99,147,193,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(207,231,250,1) 0%,rgba(99,147,193,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(207,231,250,1) 0%,rgba(99,147,193,1) 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgba(207,231,250,1) 0%,rgba(99,147,193,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cfe7fa', endColorstr='#6393c1',GradientType=0 ); /* IE6-9 */
+}
+
+#miniCorpo{
+    
+    height: 170px;
+    
+    background-image: linear-gradient(bottom, rgb(182,204,227) 12%, rgb(204,219,255) 0%, rgb(255,255,255) 78%);
+    background-image: -o-linear-gradient(bottom, rgb(182,204,227) 12%, rgb(204,219,255) 0%, rgb(255,255,255) 78%);
+    background-image: -moz-linear-gradient(bottom, rgb(182,204,227) 12%, rgb(204,219,255) 0%, rgb(255,255,255) 78%);
+    background-image: -webkit-linear-gradient(bottom, rgb(182,204,227) 12%, rgb(204,219,255) 0%, rgb(255,255,255) 78%);
+    background-image: -ms-linear-gradient(bottom, rgb(182,204,227) 12%, rgb(204,219,255) 0%, rgb(255,255,255) 78%);
+
+    background-image: -webkit-gradient(
+	linear,
+	left bottom,
+	left top,
+	color-stop(0.12, rgb(182,204,227)),
+	color-stop(0, rgb(204,219,255)),
+	color-stop(0.78, rgb(255,255,255)));
+}
+
+#logo{
+    width:246px;
+    height:76px;
+    font-size: 50px;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+
+#divPesquisar{
+    
+    position: absolute;
+    width: 810px;
+    height: 100px;
+    top: 10%;
+    left: 50%;
+    margin-left: -510px;
+    margin-top: -25px;
+}
+
+#pesquisa{
+    
+    height: 30px;
+    border: 1px solid #64799e;
+    font-size: 25px;
+    color: darkgray;
+    margin-left: 260px;
+    margin-top: 30px;
+    
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+    border-radius: 7px;
+    
+}
+
+#botao{
+/*
+    cursor:pointer;
+    color: #fff;
+    
+    width: 32px;
+    height: 32px;
+    margin-top: -38px;
+    float: right;    
+    text-shadow: 0 -1px 1px #64799e;
+ 
+
+    border: 1px #5c6f91;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    */
+    
+    float: right;
+    margin-right: 13px;
+    margin-top: 32px;
+ 
+    }
+    
+#medCorpo{
+    float: left;
+    width: 70%;
+}
+    
+.fb-like {
+    padding-right: 10px;
+}
+
+#divLike{
+    float: right;
+    position: relative;
+    clear: both;
+    right: 3%;
+    margin-top: 10px;
+}
+
+img{
+    border: none;
+}
+
+#rodape{
+    
+    margin-top: -25px;
+    height: 25px;
+    clear: both;
+    text-align: left;
+    font-family: monospace;
+    font-size: 13px;
+    line-height: 25px;
+    border-top: 1px appworkspace solid;
+    bottom: 0;
+    width: 100%;
+    position: absolute;
+    top: auto;
+    right: 0;
+    left: 0;
+}
+
+#divPesquisar input.botao-busca {
+    cursor:pointer;
+}
+
+#logoFacebook{
+    padding-bottom: 5px;
+    padding-right: 5px;
+}
+
+#logoGPlus{
+    padding-bottom: 5px;
+    padding-right: 5px;
+}
+
+#logoRSocial{
+    margin: 10px 5px 5px 15px;
+    position: absolute;
+}
+
+#dialectos{
+    clear: both;
+    position: absolute;
+    margin-left: 265px;
+    margin-top: 3px;
+    font-size: 15px;
+}
+
+a{
+    text-decoration: none;
+    
+}
+
+label{
+    font-family: Arial, Verdana;
+    font-weight: bold;
+    font-size: 42px;
+}
+
+caption{
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+#linguasNacionais{
+    float: left;
+    width: 100%;
+}
+.colLinguas{
+    font-family: monospace;
+    font-size: 18pt;
+    font-weight: bold;
+    text-align: center;
+    background-color: activecaption;
+}
+
+.colTrad{
+    font-family: sans-serif;
+    font-size: 16pt;
+    font-style: italic;
+    text-align: center;
+    padding-top: 8px;
+    font-weight: bold;
+}
+
+.colTop{
+    font-family: sans-serif;
+    font-size: 17pt;
+    font-style: normal;
+    text-align: center;
+    text-decoration: underline;
+    padding-top: 15px;
+    color: activecaption;
+}
+
+.publicidade{
+    height: 70%;
+    width: 15%;
+}
+
+#pubEsquerda{
+    float: left;
+}
+
+#pubDireita{
+    float: right;
+}
+
+#celio{
+    float: right;
+    margin-right: 10px;
+}

@@ -1,0 +1,3 @@
+﻿"Portugues";"Kikongo"
+"Banco(acento) ";"Kunda"
+"Banco(instituição bancária)";"nzo ya ludila nzimbu"
